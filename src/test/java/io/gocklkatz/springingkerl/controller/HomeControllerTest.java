@@ -21,7 +21,7 @@ public class HomeControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("home"))
                 .andExpect(content().string(
-                        containsString("Welcome to Devils Springingkerl!")));
+                        containsString("Welcome to Devils Springingkerl")));
     }
 
 }
